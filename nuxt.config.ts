@@ -20,5 +20,8 @@ export default defineNuxtConfig({
           { src: 'https://js.stripe.com/v3/', defer: true }
         ],
       }
+    },
+    nitro: {
+      preset: 'node-server'
     }
 })
